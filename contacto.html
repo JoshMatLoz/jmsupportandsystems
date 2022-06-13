@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pagina Web de JM Support & Systems">
+  <title>JM Support & Systems</title>
+  <!-- Preload -->
+  <link rel="preload" href="css/estilos.css" as="styles">
+  <link rel="preload" href="css/normaliza.css" as="styles">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/normaliza.css">
+</head>
+<body>
+  <header>
+    <div class="cabecera">
+      <img class="cabecera-logo" src="img/JM.webp" alt="Imagen Logo">
+      <h2 class="cabecera-eslogan">Enfocados en soluciones...</h2>
+    </div>
+  </header>
+  <div class="relleno-nav">
+    <nav class="contenedor navegacion-principal">
+      <a href="index.html">Inicio</a>
+
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+  <main class="contenedor sombra">
+    <h2>Contacto</h2>
+    <form class="formulario">
+      <fieldset>
+        <legend>Contáctanos llenando los campos</legend>
+        <div class="contenedor-campos">
+          <div class="campo">
+            <label for="nombre">Nombre:</label>
+            <input class="llena-campo" type="text" placeholder="Tu nombre" id="nombre">
+          </div>
+          <div class="campo">
+            <label for="telefono">Teléfono:</label>
+            <input class="llena-campo" type="tel" placeholder="Tu numero de Tel" id="telefono">
+          </div>
+          <div class="campo">
+            <label for="correo">E-mail:</label>
+            <input class="llena-campo" type="email" placeholder="Tu Correo" id="correo">
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="llena-campo" id="mensaje"></textarea>
+          </div>
+        </div>
+        <div class="posicion-boton">
+          <input class="boton" type="submit" value="Enviar">
+        </div>
+        
+      </fieldset>
+    </form>
+  </main>
+  <footer class="contenedor-footer">
+    <h3>JM Support and Systems 2022</h3>
+    <nav class="navegacion-secundaria">
+      <a href="index.html">Inicio</a>
+
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html">Contacto</a>
+  </nav>
+  </footer>
+</body>
+</html>
